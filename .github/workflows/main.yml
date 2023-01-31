@@ -13,5 +13,5 @@ jobs:
       with:
         server: files.000webhost.com
         username: AtelierIntegration
-        password: "&3sdNQi^BrXepA*2QG54"
+        password: ${{ secrets.FTP_PASSWORD }}
         server-dir : public_html/
